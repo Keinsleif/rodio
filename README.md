@@ -12,7 +12,7 @@ Playback is handled by [cpal](https://github.com/RustAudio/cpal). Format decodin
  - WAV by [hound](https://github.com/ruud-v-a/hound).
  - Vorbis by [lewton](https://github.com/est31/lewton).
  - FLAC by [claxon](https://github.com/ruuda/claxon).
- - MP4 and AAC (both disabled by default) are handled only by [Symphonia](https://github.com/pdeljanov/Symphonia).
+ - MP4, AAC, ALAC and AIFF (these are disabled by default) are handled only by [Symphonia](https://github.com/pdeljanov/Symphonia).
 
 See [the docs](https://docs.rs/rodio/latest/rodio/#alternative-decoder-backends) for more details on backends.
 
